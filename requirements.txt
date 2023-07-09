@@ -1,5 +1,5 @@
 mediapipe
-streamlit==1.12.2
+streamlit
 matplotlib
 Pillow
-opencv-python-headless==4.6.0.66
+opencv-python-headless
