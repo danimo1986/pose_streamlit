@@ -1,0 +1,5 @@
+mediapipe
+streamlit
+opencv-python
+matplotlib
+Pillow
