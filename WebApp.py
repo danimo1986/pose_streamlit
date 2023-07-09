@@ -59,12 +59,14 @@ def process_video(file):
 
 # メインのStreamlitアプリケーション
 def main():
-    st.title("Pose Estimation for Landmarks Trajectories")
-
+    st.title("Pose Estimation") 
+    st.title("for Landmarks Trajectories") 
     # サイドバーに動画の数を選択するセレクトボックスを表示
+    st.sidebar.title("Single validation or comparison")
     num_videos = st.sidebar.selectbox("Number of Videos", [1, 2])
 
     # サイドバーに画像を表示
+    st.sidebar.title("Reference:")
     st.sidebar.title("Pose Landmarks Index")
     image_path = "pose_landmarks_index.png"
     image = Image.open(image_path)
